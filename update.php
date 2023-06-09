@@ -8,6 +8,41 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bg.css">
     <link rel="stylesheet" href="css/update.css">
+    <style>
+        .form-login {
+    font-family: verdana;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.form-login h2 {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.form-login .input-box textarea{
+    background: #078a9c;
+    border-radius: 10px;
+    border: none;
+    color: #002c41;
+    font-weight: bold;
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+}
+
+.btn-kirim {
+    width: 100px;
+    border-radius: 10px;
+    color: #E4E4E4;
+    background: #078a9c;
+}
+    </style>
 </head>
 <body>
     <nav class="navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark" >
@@ -60,7 +95,7 @@
         }
     }
 
-   
+
 ?>
 <?php
     require 'koneksi.php';
@@ -103,7 +138,7 @@
                     <textarea name="outro" cols="30" rows="10"><?php echo $outro; ?></textarea><br><br>
                 </div> 
 
-                <input type="submit" name="input" value="Kirim" class="btn-kirim"><br><br>
+                <input type="submit" name="update" value="Kirim" class="btn-kirim"><br><br>
             </form>
     </div>
 
