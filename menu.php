@@ -44,7 +44,7 @@
     <div class="gambar"><img src="gambar/gitar (2).png" width="500px"></div>
     <div class="content">
         <h1>Apakah anda ingin membuat lagu?</h1><br><br>
-        <h2>Disini Solusinya, di LyricsLab anda dapat membuat lirik lagu dan menemukan berbagai</h2>
+        <h2>Disini Solusinya, di LyricsLab anda dapat membuat lirik dan chord lagu seperti yang diinginkan</h2>
     </div>
 
     <div class="contact">
