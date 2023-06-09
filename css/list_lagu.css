@@ -1,0 +1,67 @@
+.content {
+    width: 60%;
+    height: auto;
+    float: left;
+    background: transparent;
+    margin-top: 60px;
+    text-align: center;
+    font-family: Verdana;
+}
+table {
+    margin: 20px;
+}
+.list {
+    width: 38%;
+    background: transparent;
+    float: left; 
+    margin-top: 60px;
+    padding-left: 20px;
+    font-family: verdana;
+}
+.list table {
+    margin-left: 7px;
+}
+.list h2 {
+    padding-left: 20px;
+    font-size: 30px;
+}
+.content table {
+    margin-left: 270px;
+    font-size: 17px;
+}
+.btnShow {
+    color: #E4E4E4;
+    width: 120px;
+    cursor:pointer;
+    margin-bottom: 10px;
+    height: 35px;
+    background: #002c41;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+.btnHapus {
+    color: #E4E4E4;
+    width: 70px;
+    cursor:pointer;
+    height: 25px;
+    background: #002c41;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
+.btnEdit {
+    color: #E4E4E4;
+    width: 48px;
+    background: #002c41;
+    cursor:pointer;
+    height: 25px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+    

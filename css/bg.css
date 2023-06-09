@@ -1,0 +1,15 @@
+body {
+    background-color: #026379;
+    color: #E4E4E4;
+}
+nav {
+    width: 100%;
+}
+ul {
+    font-family: verdana;
+    font-weight: bold;
+}
+form a {
+    text-decoration: none;
+    font-family: verdana;
+}

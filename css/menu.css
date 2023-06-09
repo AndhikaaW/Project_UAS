@@ -1,0 +1,41 @@
+body {
+    position: fixed;
+}
+.gambar {
+    width: 30%;
+    float: left;
+    margin-top: 80px;
+}
+.content {
+    width: 60%;
+    height: auto;
+    margin-top: 100px;
+    margin-right: 70px;
+    float: left;
+}
+table {
+    margin: 20px;
+}
+.content h1 {
+    width: 100%;
+    text-align: right;
+}
+.content h2 {
+    width: 100%;
+    text-align: right;
+    padding-bottom: 350px;
+}
+.contact {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+}
+.contact a {
+    text-decoration: none;
+    color: aliceblue;
+    padding-right: 20px;
+}
+.contact a:hover {
+    font-weight: bold;
+}

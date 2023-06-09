@@ -1,0 +1,33 @@
+.form-login {
+    font-family: verdana;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.form-login h2 {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.form-login .input-box textarea{
+    background: #078a9c;
+    border-radius: 10px;
+    border: none;
+    color: #002c41;
+    font-weight: bold;
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+}
+
+.btn-kirim {
+    width: 100px;
+    border-radius: 10px;
+    color: #E4E4E4;
+    background: #078a9c;
+}
